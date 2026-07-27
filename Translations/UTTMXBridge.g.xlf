@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="UTTMXBridge">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 1494273526 - Method 1096115084 - NamedType 251659954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>this will delete the Fiscal folio from all of related data, are you sure to proceed ?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit UTTLib - Method DeleteFiscalFolio - NamedType ConfirmDeleteUUId</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1494273526 - Method 1096115084 - NamedType 87712485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>the Fiscal folio is successfully deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit UTTLib - Method DeleteFiscalFolio - NamedType MsgUUIDisdeleted</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1494273526 - Method 3892146678 - NamedType 2630949431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>you are not allowed to run this function, please ask your admion for more details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit UTTLib - Method IsUserHasPermission - NamedType LblUsermissingPerm</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT Customer Detailed Aging</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>customer balance,payment due</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 457935714" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Detailed Aging</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType Customer_Detailed_AgingCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 500909485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType Cust_Ledger_Entry_Due_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 3034938817" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType Cust_Ledger_Entry_Posting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 1443864879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Months Due</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType OverDueMonthsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 891855071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>barki</source>
+          <note from="Developer" annotates="general" priority="2">%1 is barki</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType Test01Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As of %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 is the as of date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType Text000Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - ReportLabel 1440762110" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - ReportLabel CustomerContactCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - Control 458406397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the end of the period covered by the report (for example, 12/31/17).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - Control Ending Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - Control 458406397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - Control Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - Control 3179755115 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that you want to only show open entries relating to the list of the customers' balances that are due.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - Control ShowOpenEntriesOnly - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 929558777 - Control 3179755115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Open Entries Only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Detailed Aging - Control ShowOpenEntriesOnly - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT Customer Total-Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 1535750739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType CreditCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 2542616827" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Total-Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType CustTotalBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 1057048686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType DebitCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 3806031425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit/ Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType DebitCreditCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 2716332507" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType PeriodCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 2377555396" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Ending Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType PeriodEndingBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 3747330702" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType StartingBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 549451371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period is not available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType Text1140000</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 1187147988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType Text1140001</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 671667798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All amounts are in %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType Text1140021</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 3053545243" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exch. Rate Differences Adjustment; Debit and credit amounts are adjusted by real. losses and gains</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType Text1140022</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 3691241860" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Exch. Rate Differences Adjustment; Debit and credit amounts are not adjusted by real. losses and gains</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType Text1140023</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 1670094365" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType YearCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - NamedType 2030874870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year Ending Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - NamedType YearEndingBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - ReportColumn 377540043 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - ReportColumn EndBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - ReportColumn 2468276840 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - ReportColumn PeriodEndBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - ReportColumn 3150967906 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - ReportColumn StartBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - Control 4169191647 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to include exchange rate differences in the report. If you select this check box, all debit and credit amounts will be corrected by the realized profit and loss due to the exchange rate differences. Warning: If you do not select the check box, all exchange rate differences of realized profit and loss will not be considered. This could lead to problems with reconciling with the corresponding receivables accounts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - Control AdjustExchRateDifferences - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2544838932 - Control 4169191647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjust Exch. Rate Differences</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Customer Total-Balance - Control AdjustExchRateDifferences - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT FA Book Value 03</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 3130227637" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sub Group Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType SubGroupTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 549451371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset - Book Value 03</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140000</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 1187147988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Budget Report)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140001</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 1824844605" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140002</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 2462541222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Totals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140003</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 2293632199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>in Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140004</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 2931328816" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disposal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140005</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 3569025433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Addition</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140006</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 4206722050" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 has been modified in fixed asset %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140007</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 4037813027" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reclassification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140008</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 380542348" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appreciation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140009</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 825983644" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accum. Depr. until</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140010</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 188287027" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType Text1140011</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 2139801453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the calculated future depreciation and future book value are included. If you select this field, the Depreciation in Period column will contain both posted depreciation and depreciation that has been calculated until the specified end date. If you do not select the field, the column will only contain posted depreciation. In both cases, posted depreciation refers to depreciation that is posted in the period defined by the start date and the end date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control BudgetReport - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 2139801453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Budget Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control BudgetReport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 4106603340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the depreciation book that is assigned to the fixed asset.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control DepreciationBook - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 4106603340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Depreciation Book</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control DepreciationBook - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 3592094765 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last date that the report includes data for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 3592094765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 2991586698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the report to group fixed assets and print totals using the category defined in this field. For example, maintenance expenses for fixed assets can be shown for each fixed asset class.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control GroupTotals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 2991586698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Totals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control GroupTotals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 2991586698 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,FA Class,FA Subclass,FA Location,Main Asset,Global Dimension 1,Global Dimension 2,FA Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control GroupTotals - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 4179148676 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the information is shown separately for each fixed asset.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control PrintPerFixedAsset - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 4179148676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print per Fixed Asset</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control PrintPerFixedAsset - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 543275552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date from which the report or batch job processes information.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 543275552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control StartingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 218381022 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the report to group fixed assets and print totals using the sub category defined in this field. For example, maintenance expenses for fixed assets can be shown for each fixed asset class.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control SubGroupTotals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 193594665 - Control 218381022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sub Group Totals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Asset-Book Value 03 - Control SubGroupTotals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT List AT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 1339886381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Depr. Startdate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Depr__StartdateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 615573738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GND / RND</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType GND___RNDCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 3545332734" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IFB Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType IFB_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 853328326" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IFB Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType IFB_DateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Assets List AT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(budgeted)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grouptotal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GroupTotals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>in Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disposal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appreciation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - NamedType 1921651732" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - NamedType VendorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 2139801453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the calculated future depreciation and future book value are included. If you select this field, the Depreciation in Period column will contain both posted depreciation and depreciation that has been calculated until the specified end date. If you do not select the field, the column will only contain posted depreciation. In both cases, posted depreciation refers to depreciation that is posted in the period defined by the start date and the end date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control BudgetReport - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 2139801453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Budget Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control BudgetReport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 3552972809 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the depreciation book that is assigned to the fixed asset.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control DeprBookCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 3552972809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Depreciation Book</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control DeprBookCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 845401037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last date that the report includes data for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control EndDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 845401037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control EndDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 2991586698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the report to group fixed assets and print totals using the category defined in this field. For example, maintenance expenses for fixed assets can be shown for each fixed asset class.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control GroupTotals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 2991586698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Totals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control GroupTotals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 2991586698 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,FA Class,FA Subclass,FA Location,Main Asset,Global Dimension 1,Global Dimension 2,FA Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control GroupTotals - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 568987109 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the details of each fixed asset within the filter. If you do not select this check box, then only the totals will be printed on the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control PrintDetails - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 568987109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control PrintDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 3605153064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date from which the report or batch job processes information.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control StartDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4232005766 - Control 3605153064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Fixed Assets - List AT - Control StartDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT G/L Total-Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 1535750739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType CreditCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 1057048686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType DebitCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 3806031425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit/ Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType DebitCreditCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 689524896" size-unit="char" translate="yes" xml:space="preserve">
+          <source>**</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType EmptyStringCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 1360618399" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType GLAccIndentNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 464859437" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Total-Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType GLTotalBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 2716332507" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType PeriodCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 3683181292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Ending Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType PeriodEndBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 3747330702" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType StartingBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 549451371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period is not available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType Text1140000</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 1187147988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType Text1140001</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 671667798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All amounts are in %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType Text1140021</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 1670094365" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType YearCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - NamedType 2030874870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year Ending Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - NamedType YearEndingBalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - ReportColumn 377540043 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - ReportColumn EndBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - ReportColumn 2468276840 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - ReportColumn PeriodEndBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 288649100 - ReportColumn 3150967906 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT G/L Total-Balance - ReportColumn StartBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT submaquila Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 650077689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2">DEU=Seite; DEA=Seite</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType PageCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 1438251469" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submaquila Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType ReportnameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 3647619993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtClaveLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 638164549" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtInvoiceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 707398962" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtItemDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 298281513" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtItemLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 125344153" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pedimento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtPedimentoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 684672603" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Piece No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtPieceNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 2732626434" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtPostingDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 3589999359" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtProcesoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 765321894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty imported</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtQtyImportedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2204689086 - NamedType 1468655015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty shipped</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Piece Pedimento - NamedType TxtQtyShippedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT Vendor Detailed Aging</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - NamedType 4092352280" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - NamedType DueDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - NamedType 1443864879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Months Due</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - NamedType OverDueMonthsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - NamedType 549451371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As of %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - NamedType Text1140000</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - NamedType 2131193397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Detailed Aging</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - NamedType VendDetailedAgingCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - Control 3592094765 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last date that the report includes data for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 710581937 - Control 3592094765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Detailed Aging - Control EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UTT Vendor Total-Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1535750739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType CreditCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 3442795374" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType CreditCaption_Control1140025Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1057048686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType DebitCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 3484700110" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType DebitCaption_Control1140026Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1766647673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit/ Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Debit__CreditCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 3326165972" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit/ Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Debit__CreditCaption_Control1140021Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 2488645138" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit/ Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Debit__CreditCaption_Control1140027Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1361759876" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Ending Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Period_Ending_BalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1049106551" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Starting_BalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 549451371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period is not available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Text1140000</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1187147988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Text1140001</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 303737259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Text1140002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 3362187532" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Text1140003Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 671667798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All amounts are in %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Text1140021</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 3053545243" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exch. Rate Differences Adjustment; Debit and credit amounts are adjusted by real. losses and gains</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Text1140022</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 3691241860" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Exch. Rate Differences Adjustment; Debit and credit amounts are not adjusted by real. losses and gains</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Text1140023</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 3197190312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Total-Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Vendor_Total_BalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - NamedType 487042678" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year Ending Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - NamedType Year_Ending_BalanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - ReportColumn 377540043 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - ReportColumn EndBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - ReportColumn 888136502 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - ReportColumn EndBalanceType_Control1140052 - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - ReportColumn 2468276840 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - ReportColumn PeriodEndBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - ReportColumn 2352451760 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - ReportColumn PeriodEndBalanceType_Control1140048 - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - ReportColumn 3150967906 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - ReportColumn StartBalanceType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - ReportColumn 753626118 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - ReportColumn StartBalanceType_Control1140044 - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - Control 4169191647 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to include exchange rate differences in the report. If you select this check box, all debit and credit amounts will be corrected by the realized profit and loss due to the exchange rate differences. Warning: If you do not select the check box, all exchange rate differences of realized profit and loss will not be considered. This could lead to problems with reconciling with the corresponding receivables accounts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - Control AdjustExchRateDifferences - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 643500412 - Control 4169191647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjust Exch. Rate Differences</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UTT Vendor Total-Balance - Control AdjustExchRateDifferences - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

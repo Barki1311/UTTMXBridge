@@ -1,0 +1,22 @@
+{
+"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+"CRS.ObjectNamePrefix": "UTT ",
+
+"al.enableCodeAnalysis": true,
+"al.codeAnalyzers": 
+[
+    "${CodeCop}",
+    "${UICop}",
+    //"${PerTenantExtensionCop}"
+],
+"al.assemblyProbingPaths": [
+    "./.netpackages",
+    "C:\\Windows/Microsoft.NET/assembly",
+    "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\",
+    "c:/windows/assembly/",
+    "C:\\Program Files\\Microsoft Dynamics NAV\\170\\Service\\Add-ins"
+],
+"xliffSync.baseFile": "UTTDE2MEXReport.g.xlf",
+}

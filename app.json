@@ -1,0 +1,113 @@
+{
+  "id": "dc52ed08-2583-416f-a52a-17c609423573",
+  "name": "UTTMXBridge",
+  "publisher": "UTT",
+  "version": "18.5.25.09240948",
+  "brief": "",
+  "description": "UTT MX BC DB Customizing ",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "dependencies": [
+    {
+      "id": "0684bcad-e970-4a00-b2e3-baba4ae3d7b4",
+      "publisher": "Kumavision AG",
+      "name": "KUMAVISION textile",
+      "version": "18.5.0.0"
+    },
+    {
+      "id": "ff34b2a1-2c07-46fb-8e56-c911325244fa",
+      "publisher": "Kumavision AG",
+      "name": "KUMAVISION factory",
+      "version": "18.5.0.0"
+    },
+    {
+      "id": "2ad652af-3921-43ab-be20-57e893980dad",
+      "publisher": "Kumavision AG",
+      "name": "Quality Management Extension",
+      "version": "17.0.0.0"
+    },
+    
+    {
+      "id": "36569745-64bd-4de5-877a-a57fd834b34e",
+      "publisher": "Kumavision",
+      "name": "EDX",
+      "version": "18.5.0.2"
+    }
+   ,
+    {
+      "id": "a6c9b2c4-2463-471a-9e6c-5ebb9c0c0071",
+      "publisher": "Kumavision AG",
+      "name": "KVS Customization Bridge MX",
+      "version": "18.5.0.0"
+    },
+    {
+      "id": "08a24998-405b-4320-b7d1-322e910cd2da",
+      "name": "UTTAPP",
+      "publisher": "UTT",
+      "version": "1.0.2.6"
+    },
+    
+    {
+      "id": "32589ceb-2906-4eab-a294-45c25131b573",
+      "publisher": "Kosmos Tek Software ©",
+      "name": "Kosmos Tek Electronic Invoicing Core NA",
+      "version": "1.0.2.0"
+    },
+     {
+      "id": "525bd91d-73cf-4d41-815a-8acd435d9f9b",
+      "publisher": "Kosmos Tek Software ©",
+      "name": "Kosmos Tek Base Library Core",
+      "version": "1.0.2.0"
+    },
+    {
+      "id": "a8e46b81-54a0-49a4-895b-558d7f114eb8",
+      "publisher": "Kosmos Tek Software ©",
+      "name": "Kosmos Tek CFDI Reports Core NA",
+      "version": "1.0.2.0"
+    },
+    {
+      "id": "bfbe6edd-db13-4568-b008-ce5f608076c3",
+      "name": "Kosmos Tek International Commerce",
+      "publisher": "Kosmos Tek Software ©",
+      "version": "1.0.2.6"
+    },
+    {
+      "id": "b04a7a75-8e80-4e29-a78f-99b0be48bcb6",
+      "name": "Kosmos Tek Electronic Accounting Core NA",
+      "publisher": "Kosmos Tek Software ©",
+      "version": "1.0.3.0"
+    },
+    {
+      "id": "134b5b11-d50e-47e2-a159-5477bfbc6aed",
+      "publisher": "Kumavision AG",
+      "name": "KVS Anpassungen",
+      "version": "1.0.0.0"
+    },
+   
+ {
+      "id": "2c03e548-534c-4aaa-9127-c190168991a0",
+      "publisher": "Kumavision AG",
+      "name": "KUMAVISION base",
+      "version": "1.0.0.0"
+    }
+  ],
+ 
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.5.0.0",
+  "target": "OnPrem",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ReportingApp.com/help/",
+  "showMyCode": true,
+  "runtime": "7.2",
+  "features": [
+    "TranslationFile"
+  ]
+}

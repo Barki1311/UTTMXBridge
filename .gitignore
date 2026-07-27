@@ -1,0 +1,20 @@
+# ALTB
+.alpackages/
+.alcache/
+launch.json
+!app.json
+rad.json
+*.app
+rad.json
+debug.log
+cache_*.json
+*.app
+*.orig
+*.zip
+*.7z
+*.pdf
+*.doc
+*.docx
+*.xlsx
+*.code-workspace
+.favorites.json
