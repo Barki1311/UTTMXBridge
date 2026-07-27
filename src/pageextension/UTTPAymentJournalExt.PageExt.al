@@ -16,6 +16,5 @@ pageextension 65054 "UTT PAymentJournalExt" extends "Payment Journal"
         // Add changes to page actions here
     }
     
-    var
-        myInt: Integer;
+  
 }
