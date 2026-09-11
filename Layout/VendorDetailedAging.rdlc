@@ -85,7 +85,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=First(Fields!DocumentNoCaption_VendLedgEntry.Value)</Value>
+                                  <Value>=First(Fields!DocumentNoCaption_VendLedgEntry.Value) &amp; " / " &amp; First(Fields!ExternalDocumentNoCaption_VendLedgEntry.Value) &amp; " / " &amp; First(Fields!OnHoldCaption_VendLedgEntry.Value)</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -642,7 +642,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!DocumentNo_VendLedgEntry.Value</Value>
+                                  <Value>=Fields!DocumentNo_VendLedgEntry.Value &amp; " / " &amp; Fields!ExternalDocumentNo_VendLedgEntry.Value &amp; " / " &amp; Fields!OnHold_VendLedgEntry.Value</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
                                   </Style>
@@ -1884,6 +1884,12 @@ End Function
         <Field Name="DocumentNoCaption_VendLedgEntry">
           <DataField>DocumentNoCaption_VendLedgEntry</DataField>
         </Field>
+        <Field Name="ExternalDocumentNoCaption_VendLedgEntry">
+          <DataField>ExternalDocumentNoCaption_VendLedgEntry</DataField>
+        </Field>
+        <Field Name="OnHoldCaption_VendLedgEntry">
+          <DataField>OnHoldCaption_VendLedgEntry</DataField>
+        </Field>
         <Field Name="DescriptionCaption_VendLedgEntry">
           <DataField>DescriptionCaption_VendLedgEntry</DataField>
         </Field>
@@ -1910,6 +1916,12 @@ End Function
         </Field>
         <Field Name="DocumentNo_VendLedgEntry">
           <DataField>DocumentNo_VendLedgEntry</DataField>
+        </Field>
+        <Field Name="ExternalDocumentNo_VendLedgEntry">
+          <DataField>ExternalDocumentNo_VendLedgEntry</DataField>
+        </Field>
+        <Field Name="OnHold_VendLedgEntry">
+          <DataField>OnHold_VendLedgEntry</DataField>
         </Field>
         <Field Name="Description_VendLedgEntry">
           <DataField>Description_VendLedgEntry</DataField>
